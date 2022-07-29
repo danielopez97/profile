@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(106, 134, 137);
+}
+
+h1 {
+  color:rgb(58, 72, 93);
+  font-size: 32px;
+}
+
+h2 {
+  color: rgb(72, 97, 131);
+  font-size: 20px;
+}
+
+p {
+  font-size: 17px;
+  color:rgb(0, 0, 0);
+}
+
+a {
+  font-size: 16px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(70, 126, 204);
+  text-decoration: none;
+}
+
+.card-white {
+  background-color: rgb(226, 232, 235);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 2, 0, 0.4);
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.img-circle {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  box-shadow: 0 10px 10px rgb(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+
+.inline-list {
+  list-style: none;
+}
+
+.inline-list li {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(70, 126, 204);
+  box-shadow: 0 10px 10px rgb(70, 126, 204);
+}
+
+#general {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#introduction a {
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+#introduction p {
+  margin-top:  40px;
+}
+
+#rrss a{
+  font-size: 50px;
+  margin: 0 auto;
+  background-color: rgb(70, 126, 204);
+  padding: 10px;
+}
+
+#parraph {
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titles {
+  font-size: large;
+  font-family: cursive;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
